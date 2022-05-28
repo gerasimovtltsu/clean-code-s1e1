@@ -88,7 +88,7 @@
     text-transform: uppercase;
 }
 
-input[type="text"] {
+.task-editor__inputtask {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -101,7 +101,7 @@ input[type="text"] {
     color: #888;
 }
 
-input[type="text"]:focus {
+.task-editor__inputtask:focus {
     color: #333;
 }
 
@@ -141,7 +141,7 @@ input#new-task {
     width: 226px;
 }
 
-.list>input[type="text"] {
+.list>.task-editor__inputtask {
     width: 226px
 }
 

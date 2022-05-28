@@ -111,7 +111,7 @@
     margin: 0 0 20px;
 }
 
-input#new-task {
+.task-editor__inputtask {
     width: 318px;
 }
 

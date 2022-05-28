@@ -42,7 +42,12 @@
     display: flex;
 }
 
-ul {
+.task-editor__incompleteTasks {
+    margin: 0;
+    padding: 0px;
+}
+
+.task-editor__completedTasks {
     margin: 0;
     padding: 0px;
 }
@@ -53,11 +58,11 @@ h3 {
 }
 
 input,
-button {
+.btn {
     outline: none;
 }
 
-button {
+.btn {
     background: none;
     border: 0px;
     color: #888;

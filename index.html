@@ -7,21 +7,21 @@
     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
 </head>
 
-<body>
-    <div class="aaa">
+<body class="body">
+    <div class="logo">
         <img src="./eisenhower-matrix.jpg">
-        <a class="more_inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+        <a class="logo__details" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </div>
-    <div class="centered-main-page-element">
-        <p id="topSectionForAddingElementToList">
+    <div class="task-editor">
+        <p id="task-editor__header">
             <label for="new-task">Add Item</label>
-        <div class="task-row-wrapper">
-            <input id="new-task" class="task" type="text">
-            <button>Add</button>
-        </div>
+            <div class="task-editor__addfield">
+                <input id="new-task" class="task" type="text">
+                <button class="task-editor__addbtn">Add</button>
+            </div>
         </p>
         <h3>Todo</h3>
-        <ul id="incompleteTasks">
+        <ul class="task-editor__incompleteTasks" id="incompleteTasks">
             <li>
                 <input type="checkbox">
                 <label class="task">Pay Bills</label>
@@ -42,7 +42,7 @@
             </li>
         </ul>
         <h3>Completed</h3>
-        <ul id="completed-tasks">
+        <ul id="task-editor__completedTasks">
             <li>
                 <input type="checkbox" checked>
                 <label class="task">See the Doctor</label>

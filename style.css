@@ -1,32 +1,32 @@
 /* Basic Style */
-body {
+.body {
     background-color: #f8f8f8;
     color: #333;
     font-family: Lato, sans-serif;
 }
 
-.aaa {
+.logo {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
 
-.aaa img {
+.logo img {
     width: 100%;
 }
 
-.aaa .more_inf {
+.logo .logo_details {
     font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-    .aaa {
+    .logo {
         text-align: center;
     }
 }
 
-.centered-main-page-element {
+.task-editor {
     display: block;
     width: 500px;
     margin: 0 auto 0;
@@ -38,7 +38,7 @@ body {
     flex-grow: 1
 }
 
-.task-row-wrapper {
+.task-editor__addfield {
     display: flex;
 }
 
@@ -151,7 +151,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+ul#task-editor__completedTasks label {
     text-decoration: line-through color: #888;
 }
 

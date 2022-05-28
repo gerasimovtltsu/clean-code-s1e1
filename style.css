@@ -156,8 +156,9 @@
 }
 
 /* Completed */
-ul#task-editor__completedTasks label {
-    text-decoration: line-through color: #888;
+.completedTasks_label {
+    text-decoration: line-through;
+    color: #888;
 }
 
 /* Edit Task */

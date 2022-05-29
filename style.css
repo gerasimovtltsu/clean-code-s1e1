@@ -163,8 +163,10 @@
 
 /* Edit Task */
 .task-editor__inputtask {
-    display: none
+    /* display: none */
 }
+
+
 
 .editMode .task-editor__inputtask {
     display: inline-block;
